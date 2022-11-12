@@ -36,7 +36,8 @@ etcdctl get foo
 3. 启动动态代理
 
 ```bash
-mvn spring-boot:run -Drouter.type=etcd
+# 修改配置文件中router.type类型为etcd再启动
+mvn spring-boot:run
 ```
 
 ## route api
