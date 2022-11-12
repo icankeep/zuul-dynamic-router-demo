@@ -1,0 +1,23 @@
+server:
+  port: 80
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+zuul:
+  sensitive-headers:
+  routes:
+#    test1:
+#      path: /**
+#      url: http://101.43.166.74:80
+    test1:
+      path: /test1
+      url: http://localhost:3333
+
+custom:
+  auth:
+    token: 29e059e7316719be58002ab87f92d3202adc2033addcfffd
+  router:
+    type: etcd
+
+
