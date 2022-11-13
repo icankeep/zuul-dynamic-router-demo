@@ -60,6 +60,7 @@ curl -X DELETE http://localhost/api/route \
 - 查看所有route信息
 ```bash
 curl -X GET http://localhost/api/route 
+curl -X GET http://localhost:81/api/route 
 ```
 
 - 删除所有route信息

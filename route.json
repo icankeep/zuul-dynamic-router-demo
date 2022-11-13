@@ -1,8 +1,8 @@
 {
-  "path": "/test3",
+  "path": "/test66",
   "route": {
-    "id": "test3",
-    "path": "/test3",
-    "url": "http://localhost:5555"
+    "id": "test66",
+    "path": "/test66",
+    "url": "http://localhost:7777"
   }
 }

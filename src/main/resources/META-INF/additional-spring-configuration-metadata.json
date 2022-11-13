@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "custom.router.type",
+      "type": "java.lang.String",
+      "description": "Description for custom.router.type."
+    },
+    {
+      "name": "custom.auth.token",
+      "type": "java.lang.String",
+      "description": "Description for custom.auth.token."
+    }
+  ] }
